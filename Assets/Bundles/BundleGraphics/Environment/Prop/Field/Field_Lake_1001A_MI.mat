@@ -1,0 +1,241 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Field_Lake_1001A_MI
+  m_Shader: {fileID: 4800000, guid: dd39ffd5ed282bc479ad054c99fbd950, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords:
+  - WET_ON
+  m_InvalidKeywords: []
+  m_LightmapFlags: 0
+  m_EnableInstancingVariants: 1
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _AlphaTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BumpMap:
+        m_Texture: {fileID: 2800000, guid: 10388e3565229b54393e44b854e08686, type: 3}
+        m_Scale: {x: 40, y: 40}
+        m_Offset: {x: 0, y: 0}
+    - _Cliff:
+        m_Texture: {fileID: 2800000, guid: b68a435b1ebf1834d89fd56f58c5ddf3, type: 3}
+        m_Scale: {x: 10, y: 10}
+        m_Offset: {x: 0, y: 0}
+    - _Cliff_Difuse:
+        m_Texture: {fileID: 2800000, guid: a3c09a327dfbadb499e94108d7418cf4, type: 3}
+        m_Scale: {x: 25, y: 25}
+        m_Offset: {x: 0, y: 0}
+    - _Cliff_N:
+        m_Texture: {fileID: 2800000, guid: 7d4e18f9695dd45418cc03b526de57ff, type: 3}
+        m_Scale: {x: 25, y: 25}
+        m_Offset: {x: 0, y: 0}
+    - _Cliff_copy:
+        m_Texture: {fileID: 2800000, guid: 88b95bed851dab540823aafcf27f4533, type: 3}
+        m_Scale: {x: 20, y: 20}
+        m_Offset: {x: 0, y: 0}
+    - _Cliff_copy_copy:
+        m_Texture: {fileID: 2800000, guid: 5a4b81182625a1647b69549b58396c96, type: 3}
+        m_Scale: {x: 20, y: 20}
+        m_Offset: {x: 0, y: 0}
+    - _DetailAlbedoMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailBumpMap:
+        m_Texture: {fileID: 2800000, guid: bfd35535cfcb49b41a3608fc0a6b366a, type: 3}
+        m_Scale: {x: 10, y: 10}
+        m_Offset: {x: 0, y: 0}
+    - _DetailMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailNormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Diffuse_A:
+        m_Texture: {fileID: 2800000, guid: b68a435b1ebf1834d89fd56f58c5ddf3, type: 3}
+        m_Scale: {x: 10, y: 10}
+        m_Offset: {x: 0, y: 0}
+    - _Diffuse_B:
+        m_Texture: {fileID: 2800000, guid: ad904af7e18fd30479301d880645584d, type: 3}
+        m_Scale: {x: 30, y: 30}
+        m_Offset: {x: 0, y: 0}
+    - _Diffuse_C:
+        m_Texture: {fileID: 2800000, guid: 88b95bed851dab540823aafcf27f4533, type: 3}
+        m_Scale: {x: 30, y: 30}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Glass:
+        m_Texture: {fileID: 2800000, guid: 88b95bed851dab540823aafcf27f4533, type: 3}
+        m_Scale: {x: 30, y: 30}
+        m_Offset: {x: 0, y: 0}
+    - _Glass_Diffuse:
+        m_Texture: {fileID: 2800000, guid: 88b95bed851dab540823aafcf27f4533, type: 3}
+        m_Scale: {x: 10, y: 10}
+        m_Offset: {x: 0, y: 0}
+    - _Glass_N:
+        m_Texture: {fileID: 2800000, guid: 5a4b81182625a1647b69549b58396c96, type: 3}
+        m_Scale: {x: 10, y: 10}
+        m_Offset: {x: 0, y: 0}
+    - _Glass_copy:
+        m_Texture: {fileID: 2800000, guid: ad904af7e18fd30479301d880645584d, type: 3}
+        m_Scale: {x: 20, y: 20}
+        m_Offset: {x: 0, y: 0}
+    - _Glass_copy_copy:
+        m_Texture: {fileID: 2800000, guid: 9cf9ce84310aa554bb5cef4d088433b5, type: 3}
+        m_Scale: {x: 20, y: 20}
+        m_Offset: {x: 0, y: 0}
+    - _Layer0Tex:
+        m_Texture: {fileID: 2800000, guid: 890e91361476eb848a6264312fe53398, type: 3}
+        m_Scale: {x: 15, y: 15}
+        m_Offset: {x: 0, y: 0}
+    - _Layer1Tex:
+        m_Texture: {fileID: 2800000, guid: e647ddb51094a474a8399c3ace2b2577, type: 3}
+        m_Scale: {x: 30, y: 30}
+        m_Offset: {x: 0, y: 0}
+    - _Layer2Tex:
+        m_Texture: {fileID: 2800000, guid: 92c99c886522ebf46a75c11442748627, type: 3}
+        m_Scale: {x: 30, y: 30}
+        m_Offset: {x: 0, y: 0}
+    - _LayerTex:
+        m_Texture: {fileID: 2800000, guid: 5fa31d7c1c74f2f419fc1b813f3d44b2, type: 3}
+        m_Scale: {x: 20, y: 20}
+        m_Offset: {x: 0, y: 0}
+    - _LayerTex2:
+        m_Texture: {fileID: 2800000, guid: a1fa70b5fa1549642950375d94d33dfd, type: 3}
+        m_Scale: {x: 4.05, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MaskTex:
+        m_Texture: {fileID: 2800000, guid: 8755743cd8f98e246aa26215bb29cff3, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Mask_Tex:
+        m_Texture: {fileID: 2800000, guid: 7c71d41e410a157429071ad05cc2d479, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Normal_A:
+        m_Texture: {fileID: 2800000, guid: f086fa0bce229e342ab1d4134e5af5ba, type: 3}
+        m_Scale: {x: 10, y: 10}
+        m_Offset: {x: 0, y: 0}
+    - _Normal_B:
+        m_Texture: {fileID: 2800000, guid: 9cf9ce84310aa554bb5cef4d088433b5, type: 3}
+        m_Scale: {x: 30, y: 30}
+        m_Offset: {x: 0, y: 0}
+    - _Normal_C:
+        m_Texture: {fileID: 2800000, guid: 5a4b81182625a1647b69549b58396c96, type: 3}
+        m_Scale: {x: 30, y: 30}
+        m_Offset: {x: 0, y: 0}
+    - _OcclusionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ParallaxMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Rock:
+        m_Texture: {fileID: 2800000, guid: ad904af7e18fd30479301d880645584d, type: 3}
+        m_Scale: {x: 20, y: 20}
+        m_Offset: {x: 0, y: 0}
+    - _Rock_Diffuse:
+        m_Texture: {fileID: 2800000, guid: b68a435b1ebf1834d89fd56f58c5ddf3, type: 3}
+        m_Scale: {x: 10, y: 10}
+        m_Offset: {x: 0, y: 0}
+    - _Rock_N:
+        m_Texture: {fileID: 2800000, guid: f086fa0bce229e342ab1d4134e5af5ba, type: 3}
+        m_Scale: {x: 10, y: 10}
+        m_Offset: {x: 0, y: 0}
+    - _Rock_copy:
+        m_Texture: {fileID: 2800000, guid: b68a435b1ebf1834d89fd56f58c5ddf3, type: 3}
+        m_Scale: {x: 10, y: 10}
+        m_Offset: {x: 0, y: 0}
+    - _Rock_copy_copy:
+        m_Texture: {fileID: 2800000, guid: f086fa0bce229e342ab1d4134e5af5ba, type: 3}
+        m_Scale: {x: 10, y: 10}
+        m_Offset: {x: 0, y: 0}
+    - _mask:
+        m_Texture: {fileID: 2800000, guid: e9874d0e40efb1c45bf3ccce60cc5afa, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _mask_copy:
+        m_Texture: {fileID: 2800000, guid: e9874d0e40efb1c45bf3ccce60cc5afa, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _mask_copy_copy:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - WATER: 0
+    - WET: 1
+    - _BumpScale: 1
+    - _Cutoff: 0.5
+    - _DetailNormalMapScale: 1
+    - _DetailNormalPower: 1.39
+    - _DstBlend: 0
+    - _Gloss: 0
+    - _GlossMapScale: 1
+    - _Glossiness: 0.044
+    - _GlossyReflections: 1
+    - _IceBumpHeightRatio: 0
+    - _IcePosY: 0
+    - _LayerOpacity: 0.271
+    - _Metallic: 0.619
+    - _Mode: 0
+    - _NormalPower: 1.8
+    - _OcclusionStrength: 1
+    - _Parallax: 0.02
+    - _RainSpecIntensity: 0
+    - _SmoothnessTextureChannel: 0
+    - _SpecIntensity: 0.103
+    - _SpecularHighlights: 1
+    - _SrcBlend: 1
+    - _UVSec: 0
+    - _WaterAmount: 1
+    - _WaterEnvIntensity: 1.96
+    - _WaterEnvSmoothness: 1
+    - _WaterSpecularIntensity: 3.01
+    - _WaterSpecularPower: 0.461
+    - _WaterTransparent: 0.655
+    - _ZWrite: 1
+    - _node_2694: 0
+    m_Colors:
+    - _ALL_Diffuse: {r: 0.7882353, g: 0.7882353, b: 0.7882353, a: 1}
+    - _Cliff_Color: {r: 1, g: 1, b: 1, a: 1}
+    - _Color: {r: 0.588, g: 0.588, b: 0.588, a: 1}
+    - _Diffuse_Color: {r: 0.30882353, g: 0.30882353, b: 0.30882353, a: 0}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _Glass_Color: {r: 1, g: 1, b: 1, a: 1}
+    - _Glassk_copy: {r: 1, g: 1, b: 1, a: 1}
+    - _Rock_Color: {r: 1, g: 1, b: 1, a: 1}
+    - _Rock_color: {r: 0.007352948, g: 0.007352948, b: 0.007352948, a: 1}
+    - _WaterColor: {r: 0.509434, g: 0.509434, b: 0.509434, a: 1}
+  m_BuildTextureStacks: []
