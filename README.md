@@ -3,7 +3,7 @@ Ground용 메쉬 레이어 편집툴
 
 * 작업물 중 일부를 회사와 관련 없는 부분만 추려서 이곳에 보관.
 
-* Unity Version : 2022.3.17f1
+* Unity Version : 2022.3.19f1
 
 * 개발목적
     1. 기존 그래픽 팀에서 Max상에서 Layer Texture를 편집
